@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+
+# R
+.Rhistory
+
+# Project-specific: Generated/Downloaded data
+audio/
+videos/
+models/
+outputs/
+results/
+transcripts/
+prosody/
+
+.claude/
+mds/
+
+*.md
+*.csv
+
+05_llm_classify.py
+05_llm_classify_v2.py
+05b_llm_classify_prosody(1).py
+06_merge_validate.py
+07_engagement_predict.py
+08_rq1_visualisation.py
+08_visualise_h2_extended.py
+09_rq2_visualisation.py
+09_visualise_rq2.py
+10_rq3_engagement.py
+11_rq3_visualisation.py
+12_section_4_1_pipeline.py
