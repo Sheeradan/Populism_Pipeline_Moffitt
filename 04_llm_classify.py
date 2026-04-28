@@ -1,5 +1,5 @@
 """
-05_llm_classify_v3.py
+04_llm_classify.py
 ---------------------
 Two-pass Moffitt populist style classifier using Ollama (Gemma 3 27b).
 
@@ -22,8 +22,8 @@ Dependencies:
   Ollama must be running locally with gemma3:27b pulled.
 
 Usage:
-  python 05_llm_classify_v3.py
-  python 05_llm_classify_v3.py --model gemma3:27b --skip-a  # resume from existing Pass A
+  python 04_llm_classify.py
+  python 04_llm_classify.py --model gemma3:27b --skip-a  # resume from existing Pass A
 """
 
 import argparse
